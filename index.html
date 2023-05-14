@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FundMe</title>
+    </head>
+    <body
+        style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        "
+    >
+        <script src="./index.js" type="module"></script>
+        <div class="all" style="display: flex; flex-direction: column">
+            <div>Bishop's FundME</div>
+            <div>
+                <button id="connectButton" style="padding: 10px">
+                    Connect
+                </button>
+                <button id="fundButton" style="padding: 10px">Fund</button>
+                <button id="balanceBtn" style="padding: 10px">Balance</button>
+                <button id="withdrawBtn" style="padding: 10px">Withdraw</button>
+            </div>
+            <!--Form-->
+            <div
+                style="display: flex; flex-direction: column; margin-top: 20px"
+            >
+                <label for="fund">ETH Amount</label>
+                <input id="ethAmount" placeholder="0.1" style="padding: 10px" />
+            </div>
+        </div>
+    </body>
+</html>
